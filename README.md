@@ -2,7 +2,7 @@
 
 ![Demo](docs/build-weight-tracker-app-demo.gif)
 
-This sample application demonstrates the following technologies.
+This application demonstrates the following technologies:
 
 * [hapi](https://hapi.dev) - a wonderful Node.js application framework
 * [PostgreSQL](https://www.postgresql.org/) - a popular relational database
@@ -26,5 +26,3 @@ This sample application demonstrates the following technologies.
 1. Copy `.env.sample` to `.env` and change the `OKTA_*` values to your application
 1. Initialize the PostgreSQL database by running `npm run initdb`
 1. Run `npm run dev` to start Node.js
-
-The associated blog post goes into more detail on how to set up PostgreSQL with Docker and how to configure your Okta account.
